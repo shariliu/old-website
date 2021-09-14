@@ -1,7 +1,7 @@
 ---
 layout: post
-date: 2016-01-15 07:59:00-0400
+date: 2021-07-01
 inline: true
 ---
 
-A simple inline announcement with Markdown emoji! :sparkles: :smile:
+Shari becomes an 'Assistant Research Professor' at Johns Hopkins, which will enable her to apply to grants before she starts in 2023. 
