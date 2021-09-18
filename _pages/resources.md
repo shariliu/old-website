@@ -2,8 +2,8 @@
 layout: page
 permalink: /resources/
 title: resources
-description: Resources I've collected
+description: 
 nav: true
 ---
 
-### For students 
+#### Coming soon!
