@@ -4,7 +4,7 @@
 
 title: blank # the website title (if blank, full name will be used instead)
 first_name: Shari
-middle_name: 
+middle_name:
 last_name: Liu
 email: shariliu@mit.edu
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
@@ -14,10 +14,10 @@ footer_text: >
   Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
 
 icon: 🧠 # the emoji used as the favicon
-url:  # the base hostname & protocol for your site
-baseurl: /pages # the subpath of your site, e.g. /blog/
+url: # the base hostname & protocol for your site
+baseurl: # the subpath of your site, e.g. /blog/
 last_updated: true # set to true if you want to display last updated in the footer
-impressum_path:  # set to path to include impressum link in the footer, use the same path as permalink in a page, helps to conform with EU GDPR
+impressum_path: # set to path to include impressum link in the footer, use the same path as permalink in a page, helps to conform with EU GDPR
 
 # -----------------------------------------------------------------------------
 # RSS Feed
@@ -65,7 +65,6 @@ wikidata_id: # your wikidata id
 dblp_url: # your DBLP profile url
 
 contact_note: >
- 
 
 google_analytics: UA-XXXXXXXXX # out your google-analytics code
 panelbear_analytics: XXXXXXXXX # panelbear analytics site ID
@@ -74,7 +73,7 @@ panelbear_analytics: XXXXXXXXX # panelbear analytics site ID
 # Blog
 # -----------------------------------------------------------------------------
 
-blog_name: Resources  # your blog must have a name for it to show up in the nav bar
+blog_name: Resources # your blog must have a name for it to show up in the nav bar
 blog_description: Collection of things I have found useful over the years
 permalink: /resources/:year/:title/
 
@@ -109,11 +108,11 @@ news_limit: 3
 # Markdown and syntax highlight
 markdown: kramdown
 highlighter: rouge
-highlight_theme: github  # https://github.com/jwarby/jekyll-pygments-themes
+highlight_theme: github # https://github.com/jwarby/jekyll-pygments-themes
 kramdown:
   input: GFM
   syntax_highlighter_opts:
-    css_class: 'highlight'
+    css_class: "highlight"
     span:
       line_numbers: false
     block:
@@ -121,7 +120,7 @@ kramdown:
       start_line: 1
 
 # Includes & excludes
-include: ['_pages']
+include: ["_pages"]
 exclude:
   - bin
   - Gemfile
@@ -151,7 +150,6 @@ github: [metadata]
 # -----------------------------------------------------------------------------
 
 scholar:
-
   last_name: Liu
   first_name: S.
 
@@ -179,18 +177,21 @@ scholar:
 # Optional Features
 # -----------------------------------------------------------------------------
 
-enable_google_analytics:    false  # enables google analytics
-enable_panelbear_analytics: false  # enables panelbear analytics
-enable_mansory:             true   # enables automatic project cards arangement
-enable_math:                true   # enables math typesetting (uses MathJax)
-enable_tooltips:            false  # enables automatic tooltip links generated
-                                   # for each section titles on pages and posts
-enable_darkmode:            false   # enables switching between light/dark modes
-enable_navbar_social:       false  # enables displaying social links in the
-                                   # navbar on the about page
-enable_project_categories:  true   # enables categorization of projects into
-                                   # multiple categories
-enable_medium_zoom:         true   # enables image zoom feature (as on medium.com)
+enable_google_analytics: false # enables google analytics
+enable_panelbear_analytics: false # enables panelbear analytics
+enable_mansory: true # enables automatic project cards arangement
+enable_math: true # enables math typesetting (uses MathJax)
+enable_tooltips:
+  false # enables automatic tooltip links generated
+  # for each section titles on pages and posts
+enable_darkmode: false # enables switching between light/dark modes
+enable_navbar_social:
+  false # enables displaying social links in the
+  # navbar on the about page
+enable_project_categories:
+  true # enables categorization of projects into
+  # multiple categories
+enable_medium_zoom: true # enables image zoom feature (as on medium.com)
 
 # -----------------------------------------------------------------------------
 # Library versions
